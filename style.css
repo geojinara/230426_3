@@ -1,0 +1,405 @@
+
+
+
+	    *{box-sizing: border-box; }
+
+       html {font-family: 'Gothic A1', sans-serif;
+}
+		
+		body{margin: 0; padding: 0;  scroll-behavior: smooth;}
+		h1,h2{margin: auto;letter-spacing: -0.06em;}
+
+		
+
+		section{margin-bottom: 100px;} 
+
+		.bubble-1{border: 2px solid black; width: 650px; height: 300px; background: #ffffff;  text-align: center;  border-radius: 50%; font-family: Gothic A1; line-height: 300px; font-size: 2rem; letter-spacing: -0.05em; color: Ffffff; z-index: 1;position: absolute;margin: auto;
+		         top: 25%;
+          right:45%;}
+
+          
+    .bubble-2{
+             position: absolute;
+               text-align: center;
+               width: 280px;
+               height: 100px;
+               background: #FFA7D1;
+               line-height: 100px;
+               border-radius: 50%;
+               font-family: Gothic A1;
+               font-size: 1em;
+               letter-spacing: -0.05em;
+               color: #000000;
+               z-index: 1;
+               left:60%;}
+
+       
+
+
+
+
+		.bg-lightgray{margin: auto;width:1440px; height: 4200px; background:linear-gradient(to bottom, #000000, #ffff); mix-blend-mode: multiply; display: block;}
+
+		.bubble-dd{margin: auto;}
+
+		
+		.col{background: blue;margin: auto;}
+		
+		.laptop{margin:auto;width: 1200px;display: block; /* 이미지를 블록 수준 요소로 설정 */
+   padding-top: 100px;padding-bottom: 200px;}
+    
+    .kakaotalk{margin:auto;width: 1200px; position: relative;
+   padding-top: 100px;}
+
+
+    .bubble-3{padding-top: 330px;
+        padding-left: 200px;
+        padding-bottom: 200px;
+        }
+    
+
+    .dd-1{
+        	width: 150px; 
+        	height: 80px;
+        	line-height: 80px; 
+        	background: #A7FFFA; 
+        	text-align: center;  
+        	border-radius: 50%; 
+        	
+        	z-index: 1;
+        	animation: float 0.8s ease-in-out infinite alternate;}
+             @keyframes float
+             { 0% {transform: translate(0, 0);}
+  100% {
+    transform: translate(0, -20px);
+  }
+}
+		.box-1{position: relative;
+			margin: auto;width: 550px;background: linear-gradient(to bottom, #B6CDE1, #ffffff);padding: 50px;height: 600px;}
+	  
+	  .name{font-size: 1rem;}
+
+
+		
+
+        .message-box1{font-size: 0.7rem;margin-top: 30px;background: white;width: 310px;height: 40px;padding: 10px;}
+
+        .message-box2{font-size: 0.7rem;margin-top: 30px;background: white;width: 175px;height: 40px;padding: 10px;}
+
+        .message-box3{font-size: 0.7rem;margin-top: 30px;background: white;width: 260px;height: 40px;padding: 10px;}
+
+        .message-box4{font-size: 0.7rem;margin-top:10px;background: #FFE400;width: 130px;height: 40px;padding: 10px;float: right;margin-bottom: 50px;}
+
+        .message-box5{font-size: 0.7rem;margin-top: 100px;background: white;width: 340px;height: 40px;padding: 10px;}
+
+        .message-box6{font-size: 0.7rem;margin-top:10px;background: #FFE400;width: 130px;height: 40px;padding: 10px;float: right;margin-top: 30px;}
+
+        p{font-size: 0.6rem;}
+
+        .clock{float: left;padding-left: 5px;}
+
+        .clock-2{float: right;padding-top: 10px;}
+
+        .bubble-container{position: absolute;left: 65%;z-index: 1;}
+
+
+        .bubble-wrap-1{position: relative;}
+
+        .bubbles{position: relative;}
+
+        .kakaotalk-1{position: absolute; z-index: 1;
+        	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);width:80%;font-size:1rem;text-align: center;color: red;
+ }
+
+       .dot{margin: auto;width: 30px;font-size: 3rem;color: white;margin-top: 50px;}
+
+
+       .con-wrap{height: 500px;
+       	width: 700px;margin: auto;position: relative;top: 100px;}
+
+
+       .con-wrap-1{position: absolute;left: 0;height: 100%}
+       .con-wrap-2{position: absolute;right: 0; top: 100px;}
+
+       .con-bubble-1,.con-bubble-2,.con-bubble-3{border: 1px solid black; width: 300px; height: 100px; background: #ffffff;  text-align: center;  border-radius: 50%; line-height: 100px; font-size: 0.7rem; letter-spacing: -0.05em; color: Ffffff; }
+
+       .red-wrap{margin: auto;width: 300px;padding-top: 800px;animation: expand 0.5s alternate infinite ease-in-out;padding-bottom: 300px;}
+
+@keyframes expand {
+  from {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  to {
+    transform: translate(-50%, -50%) scale(1.2);
+  }}
+
+
+       .main{width: 1200px; margin: auto;text-align: center;position: relative;}
+       
+       .intro-text1{font-size: 1.5rem;padding-bottom: 20px;}
+       .intro-text2{font-size: 2rem;}
+       .intro-text3{font-size: 4rem;margin-top: 400px;margin-bottom: 200px;}
+       .row{padding-bottom: 100px;margin: auto;}
+
+       .row-1{font-size: 5rem;}
+
+       .green-wrap{width: 1000px;padding-top: 300px;}
+
+       .dosirockbubble{position: absolute;right: 10%;z-index: 1;width: 300px;bottom: 1%}
+
+       .yellowbubble{position: absolute;left: 20%;z-index: 1;
+
+  
+  animation-timing-function: ease-out;
+  transform-origin: bottom center;
+  animation-name: leaveInStyle;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+
+
+   }
+     .row-2{margin-bottom: 200px;}
+    .prelude{width: 1200px; margin: auto;text-align: center;position: relative;margin-top: 200px;}
+    .row-3{font-size: 1.5rem;color: lightgray;}
+    .row-4{font-size: 3rem;color: #00E190;}
+      
+
+
+    .cartoon{width: 1000px; margin: auto;text-align: 
+             center;background: #A7FFCF;
+             margin-top: 200px;border-radius:40px;}
+    
+    .row-5{width: 200px;text-align: left;}
+    .cartoon-name1-1{font-size: 1rem;padding-bottom: 10px;color: gray;padding-top: 50px;}
+    .cartoon-name1-2{font-size: 1.5rem;color: black;}
+
+    .cartoon-1-wrapper{width: 700px;position: relative;
+      margin: auto;}
+    .cartoon-bubble{width: 300px;position: absolute;bottom: 3%;left: 3%;}
+    .cartoon-bubble:hover{filter: invert(100%);transition: all 0.5s}
+
+    .cartoon-2-wrapper{width: 700px;position: relative;
+      margin: auto;padding-top: 100px;}
+
+      .row-6{width: 200px;text-align: left;padding-bottom: 50px;padding-top: 100px;}
+     .cartoon-name2-1{font-size: 1rem;padding-bottom: 10px;color: gray;}
+    .cartoon-name2-2{font-size: 1.5rem;color: black;}
+    .cartoon-bubble-rucrazy{position: absolute;width: 150px;right: 1%;top: 25%}
+
+
+
+    .good-wrap{width: 700px;margin: auto;padding-top: 100px;}
+    .good-img{width: 100px;}
+    .good-wrap-txt{text-align: right;position: absolute;right: 26%;}
+     .good-wrap-txt::after {
+       height: 300px;
+       width: 300px;
+       z-index: 5;
+       background-repeat: no-repeat;
+       content: '';
+       background: url('http://www.stickpng.com/assets/thumbs/584999a27b7d4d76317f5ffe.png');
+       animation-timing-function: ease-in-out;
+       transform-origin: bottom center;
+       animation-name: dealWithIt;
+       animation-duration: 3s;
+       animation-fill-mode: forwards;
+       vertical-align: baseline;
+       position: absolute;
+       top: -240%;
+       left: -110%;
+       bottom: -50%;
+       
+       animation-iteration-count: infinite;
+     }
+
+    .good-1{font-size: 2rem;}
+    .good-2{font-size:3rem;}
+
+   
+   
+    .review-txt{font-size: 5rem;text-align: center;padding-bottom: 100px;}
+    
+
+
+.review-wrap{margin-top: 200px;}
+.review-box {width: 200px;
+  display: flex; animation: scale;}
+
+.slide-container{width: 1000px;
+}
+ 
+@keyframes scale{0%{transform: scale(1.0);}
+50%{transform: scale(1.2);}
+0%{transform: scale(1.0);}}
+
+
+
+#scale{animation-name: scale; animation: float 2s ease-in-out; animation-iteration-count: infinite;}
+#a{transration: all 0.3s linear; }
+#a:hover{transform: scale(1.5);}
+.gif-flex{display: flex;position: absolute;width: 1000px;left: 13%;}
+
+
+
+
+
+
+
+
+.review-line {display: flex; position: relative;
+    width: 100vw; height: 200px; top: 9%;
+    background-color: red; border: none;
+    justify-content:right; align-items: center;
+    color: black; 
+    font-size: 2rem; margin: 0;}
+
+.review-text {/* 최저가 수강신청! 혜택 마감까지*/
+    display: block; z-index: 10;
+    animation: textmove 6s ease-in infinite;}
+
+@keyframes textmove {
+    0% {transform: translateX(100%);}
+    100% {transform: translateX(-400%);}
+    }
+
+    
+
+      
+
+
+
+ 
+
+        
+   
+
+   @keyframes leaveInStyle {
+
+  10% {
+    transform: translate3d(0px, -100px, 0px) scale(1);
+  }
+
+  12% {
+    transform: translate3d(0px, 5px, 0px) scale(1);
+  }
+
+  14% {
+    transform: translate3d(0px, -10px, 0px) scale(1);
+  }
+
+  16% {
+    transform: translate3d(0px, 0px, 0px) scale(1);
+  }
+
+  18% {
+    transform: translate3d(0px, 10px, 0px) scale(1);
+  }
+
+  25% {
+    transform: translate3d(0px, 0px, 0px) skewY(10deg) scale(1);
+  }
+
+  27% {
+    transform: translate3d(0px, -5px, 0px) skewY(7deg) scale(1);
+  }
+
+  50% {
+    transform: translate3d(0px, 5px, 0px) skewY(10deg) scale(1);
+  }
+
+    60% {
+    transform: translate3d(0px, -5px, 0px) skewY(7deg) scale(1);
+  }
+
+   70% {
+    transform: translate3d(0px, 0px, 0px) skewY(10deg) scale(1);
+  }
+
+  90% {
+    transform: translate3d(0px, -100px, 0px) scale(1);
+  }
+
+     }
+
+          @keyframes dealWithIt {
+
+       1% {
+         transform: translate3d(0,0,0) scale(1);
+         opacity: 1;
+       }
+
+
+       30% {
+         transform: translate3d(0,160px,0) scale(1);
+         opacity: 1;
+       }
+
+       70% {
+         transform: translate3d(0,160px,0) scale(1);
+         opacity: 1;
+       }
+
+       85% {
+         transform: translate3d(0,160px,0) scale(1);
+         opacity: 1;
+       }
+
+       99% {
+         transform: translate3d(0,-2000px,0) scale(1);
+       }
+
+       to {
+         visibility: hidden;
+         opacity: 0;
+       }
+
+     }
+
+@keyframes dealWithIt {
+
+       1% {
+         transform: translate3d(0,0,0) scale(1);
+         opacity: 1;
+       }
+
+
+       30% {
+         transform: translate3d(0,160px,0) scale(1);
+         opacity: 1;
+       }
+
+       70% {
+         transform: translate3d(0,160px,0) scale(1);
+         opacity: 1;
+       }
+
+       85% {
+         transform: translate3d(0,160px,0) scale(1);
+         opacity: 1;
+       }
+
+       99% {
+         transform: translate3d(0,-2000px,0) scale(1);
+       }
+
+       to {
+         visibility: hidden;
+         opacity: 0;
+       }
+
+     }
+
+.zz-container,.gif-container{width: 1000px;margin: auto;text-align: center;}
+.zz-wrap{margin: auto;}
+.mom{font-size: 1rem;}
+#b{width: 1000px; }
+
+.gif-wrap{margin: auto; margin-top: 200px;}
+
+.zz{width: 120%;background: red;}
+
+
+	</style>
